@@ -1,0 +1,23 @@
+name: flug_tag
+description: A dart-tags lib sample.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dart_tags:
+    git:
+      url: git://github.com/NiKoTron/dart-tags.git
+      ref: feature/id3v2
+
+  cupertino_icons: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - data/mp3.mp3
