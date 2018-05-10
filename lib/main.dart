@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
     var d = await DefaultAssetBundle.of(context).load('data/mp3.mp3');
 
       TagProcessor tp = new TagProcessor();
-      var l = await tp.getTagsFromBytes(d, [TagType.id3v2]);
+      var l = await tp.getTagsFromByteData(d, [TagType.id3v2]);
 
       AttachedPicture ai = l[0].tags['APIC'];
 
