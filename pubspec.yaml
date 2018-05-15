@@ -5,9 +5,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  dart_tags:
-    git:
-      url: git://github.com/NiKoTron/dart-tags.git
+  simple_permissions: ^0.1.4
+
+  path_provider: ^0.4.0
+
+  dart_tags: ^0.0.7
 
   cupertino_icons: ^0.1.0
 
